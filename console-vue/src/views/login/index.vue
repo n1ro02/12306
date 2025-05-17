@@ -153,7 +153,7 @@ const handleLogin = () => {
 
 const registerSubmit = () => {
   if (location.host.indexOf('12306') !== -1) {
-    message.info('关注公众获取验证码登录哦！')
+    message.info('宿州学院')
     currentAction.value = 'login'
     return
   }
